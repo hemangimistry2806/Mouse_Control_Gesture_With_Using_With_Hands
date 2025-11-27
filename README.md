@@ -3,7 +3,7 @@
 A powerful hand-gesture-based virtual mouse system using **MediaPipe**, **OpenCV**, and **PyAutoGUI**.  
 Control your computer cursor using **just your hand** — no sensor, no gloves, no expensive hardware.
 
-This project is perfect for Computer Vision learners, AI enthusiasts, or anyone who wants to feel like Tony Stark (or a Super Saiyan 😤).
+This project is perfect for Computer Vision learners, AI enthusiasts, or anyone who wants to feel like Tony Stark.
 
 ---
 
