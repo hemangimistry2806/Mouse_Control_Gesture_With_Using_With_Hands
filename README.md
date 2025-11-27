@@ -16,18 +16,21 @@ This project is perfect for Computer Vision learners, AI enthusiasts, or anyone 
 
 ---
 
-# ✨ Features
+## ✨ Features
+- Hand tracking using MediaPipe
+- Move mouse cursor with hand movement
+- Click using finger gestures
+- Smooth cursor movement using interpolation
+- Works on any webcam
 
-- 🖱️ **Cursor Movement** → Controlled by midpoint of **Index + Middle** finger  
-- 👆 **Left Click** → Thumb touches Index finger  
-- 👉 **Right Click** → Thumb touches Middle finger  
-- ✊ **Exit Program** → Hold a closed fist for 2 seconds  
-- 🧘 Super-smooth motion using:
-  - Jitter reduction  
-  - Movement smoothing  
-  - Boundary control box  
-- ⚡ Optimized specifically for **i5-level laptops**  
-- 🧠 Uses powerful MediaPipe hand landmark detection  
+---
+
+## 🧠 How It Works
+1. MediaPipe detects 21 hand landmarks.
+2. Index fingertip coordinates are extracted.
+3. Coordinates are mapped to screen size.
+4. Cursor moves according to finger movement.
+5. Clicks are detected using finger distance logic.
 
 ---
 
@@ -35,5 +38,8 @@ This project is perfect for Computer Vision learners, AI enthusiasts, or anyone 
 
 Install the required Python libraries:
 
+## 🏃‍♂️ Run the Project
 ```bash
 pip install opencv-python mediapipe pyautogui numpy
+pip install -r requirements.txt
+python Mouse.py
