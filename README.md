@@ -7,7 +7,11 @@ This project is perfect for Computer Vision learners, AI enthusiasts, or anyone 
 
 ---
 
-# 📸 Demo (Coming Soon)
+## 📸 Demo Screenshot
+![Hand Tracking Demo](hands-points.png)
+
+## 🖥️ Terminal Output
+![Terminal Demo](terminal-output.png)
 
 
 ---
